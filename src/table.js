@@ -30,6 +30,7 @@ import { MdCancel } from 'react-icons/md';
 
 
 
+
 import { FaBeer} from 'react-icons/fa';
 
 import DeleteIcon from '@mui/icons-material/Delete';
@@ -69,6 +70,8 @@ function TablePaginationActions(props) {
         disabled={page === 0}
         aria-label="first page"
       >
+        {theme.direction === 'rtl' ? <LastPageIcon /> : <LastPageIcon />}
+
       </IconButton>
       <IconButton
         onClick={handleBackButtonClick}

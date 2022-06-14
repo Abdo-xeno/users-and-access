@@ -6,9 +6,12 @@ import InputLabel from '@mui/material/InputLabel';
 import Checkbox from '@mui/material/Checkbox';
 import { useFormik } from 'formik';
 import * as yup from 'yup';
-import Visibility from '@mui/icons-material/Visibility';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import { IoIosAdd} from 'react-icons/io';
+import { MdOutlineVisibility} from 'react-icons/md';
+import { MdOutlineVisibilityOff} from 'react-icons/md';
+
+
+
 import IconButton from '@material-ui/core/IconButton';
 
 import {
@@ -138,12 +141,13 @@ marginRight: '10%'
             endAdornment: (
               <InputAdornment position="end">
                 <IconButton
+                  style={{marginLeft: '50%', color: '#00008C'}}
                   aria-label="toggle password visibility"
                   onClick={handleClickShowPassword}
                   onMouseDown={handleMouseDownPassword}
                   edge="end"
                 >
-                  {formik.values.showPassword ? <VisibilityOff /> : <Visibility />}
+                  {formik.values.showPassword ? <MdOutlineVisibilityOff /> : <MdOutlineVisibility />}
                 </IconButton>
               </InputAdornment>
             ) }}      

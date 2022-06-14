@@ -128,9 +128,9 @@ alignItems: 'center',
 padding: '12px 24px 12px 20px',
 gap: '8px',
 marginRight: '72%',
-marginBottom: '-50px',
+marginBottom: '-55px',
 textTransform: 'lowercase',
-}} variant="contained" startIcon={<MdOutlineLogin />}  onClick={openLoginForm}>
+}} variant="contained" startIcon={<MdOutlineLogin size={30}/>}  onClick={openLoginForm}>
         <span>Se connecter</span>
       </Button> }
 
