@@ -4,7 +4,7 @@ import docaposteImage from './assets/docaposteImage.png';
 import Snackbar from '@mui/material/Snackbar';
 import ModalDialog from './components/usersTable/ModalDialog';
 import Button from '@mui/material/Button';
-import {CustomPaginationActionsTable} from './components/usersTable/table.js';
+import {CustomPaginationActionsTable} from './components/usersTable/DataTable.js';
 import { IoIosAdd} from 'react-icons/io';
 import { MdOutlineLogout} from 'react-icons/md';
 import { MdOutlineLogin} from 'react-icons/md';
