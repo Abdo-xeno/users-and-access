@@ -8,7 +8,7 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
-import LoginForm from './LoginForm';
+import LoginForm from './components/loginPage/LoginForm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +19,6 @@ root.render(
       <Route path="login" element={<LoginForm />} />
     </Routes>
     </BrowserRouter>
-
 );
 
 // If you want to start measuring performance in your app, pass a function

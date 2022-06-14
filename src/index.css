@@ -12,29 +12,26 @@ code {
     monospace;
 }
 
-#label{
+#label {
   color: #00008C;
-
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 120%;
-height: 17px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  height: 17px;
 }
 
-.fieldInput{
+.fieldInput {
   font-family: 'Barlow';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 120%;
-background-color: white;
-height: fit-content;
-
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  background-color: white;
+  height: fit-content;
 }
 
-.modalText{
+.modalText {
   color: #00008C;
   display: flex;
   font-style: normal;
@@ -45,49 +42,53 @@ height: fit-content;
   margin-top: 5%;
   margin-left: 3%;
   margin-bottom: 5%;
-
 }
 
-#submitButton{
+#submitButton {
   background-color: 'blue';
-   color: 'white';
-   border-radius: '28'
+  color: 'white';
+  border-radius: '28'
 }
 
-.defaultButton{
+.defaultButton {
   background-color: '#0000FF';
-     display: 'flex';
-flex-direction: 'row';
-justify-content: 'center';
-align-items: 'center';
-padding: '12px 24px 12px 20px';
-gap: '8px';
-
+  display: 'flex';
+  flex-direction: 'row';
+  justify-content: 'center';
+  align-items: 'center';
+  padding: '12px 24px 12px 20px';
+  gap: '8px';
 }
 
-.snackBarText{
+.snackBarText {
   color: 'grey';
-   margin-left: '20px';
-    margin-top: '5px';
-     font-family: 'Barlow';
+  margin-left: '20px';
+  margin-top: '5px';
+  font-family: 'Barlow';
   font-weight: '400';
   font-size: '14px'
-
 }
 
-.snackBarSuccesHeader{
-
-    color: '#00008C';
-     display: 'flex';
-      font-size: '16px';
-    font-weight: '600'
-
+.snackBarSuccesHeader {
+  color: '#00008C';
+  display: 'flex';
+  font-size: '16px';
+  font-weight: '600'
 }
 
-.defa::first-letter{
+.defa::first-letter {
   text-transform: uppercase;
 }
 
-span::first-letter{
+span::first-letter {
   text-transform: uppercase;
+}
+
+.MuiTablePagination-toolbar {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #00008C;
+  margin-left: -2%;
 }
